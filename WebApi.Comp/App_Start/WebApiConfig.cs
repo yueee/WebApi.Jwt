@@ -24,9 +24,9 @@ namespace WebApi.Comp
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            //var jsonFormatter = new JsonMediaTypeFormatter();
-            //var settings = jsonFormatter.SerializerSettings;
-            //settings.NullValueHandling = NullValueHandling.Ignore;
+            var jsonFormatter = new JsonMediaTypeFormatter();
+            var settings = jsonFormatter.SerializerSettings;
+            settings.NullValueHandling = NullValueHandling.Ignore;
         }
     }
 }
