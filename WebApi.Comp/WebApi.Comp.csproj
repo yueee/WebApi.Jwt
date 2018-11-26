@@ -24,7 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ApplicationInsightsResourceId>/subscriptions/299a8348-8d36-4010-aaa0-5008c35e45de/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/WebApi.Jwt</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/299a8348-8d36-4010-aaa0-5008c35e45de/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/WebApi.Comp</ApplicationInsightsResourceId>
     <Use64BitIISExpress />
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -99,7 +99,7 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
