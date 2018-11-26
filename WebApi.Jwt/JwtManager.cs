@@ -3,7 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 
-namespace WebApi.Jwt
+namespace WebApi.Comp
 {
     public static class JwtManager
     {

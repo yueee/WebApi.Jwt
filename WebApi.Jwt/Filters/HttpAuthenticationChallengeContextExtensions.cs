@@ -2,7 +2,7 @@
 using System.Net.Http.Headers;
 using System.Web.Http.Filters;
 
-namespace WebApi.Jwt.Filters
+namespace WebApi.Comp.Filters
 {
     public static class HttpAuthenticationChallengeContextExtensions
     {

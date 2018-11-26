@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
-using WebApi.Jwt.Filters;
+using WebApi.Comp.Filters;
 
-namespace WebApi.Jwt.Controllers
+namespace WebApi.Comp.Controllers
 {
     public class ValueController : ApiController
     {

@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace WebApi.Jwt.Filters
+namespace WebApi.Comp.Filters
 {
     public class AddChallengeOnUnauthorizedResult : IHttpActionResult
     {

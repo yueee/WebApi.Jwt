@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Filters;
 
-namespace WebApi.Jwt.Filters
+namespace WebApi.Comp.Filters
 {
     public class JwtAuthenticationAttribute : Attribute, IAuthenticationFilter
     {
