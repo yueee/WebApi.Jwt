@@ -10,7 +10,6 @@ namespace WebApi.Comp.Models
     /// </summary>
     public class ApiResponse
     {
-        public ApiResponse() { }
         public string Version { get; set; }
         public int StatusCode { get; set; }
         public string Message { get; set; }

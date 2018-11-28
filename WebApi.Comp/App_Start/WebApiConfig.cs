@@ -12,11 +12,11 @@ namespace WebApi.Comp
             // Web API configuration and services
             config.Filters.Add(new AuthorizeAttribute());
 
-            // Web API routes
-            config.MapHttpAttributeRoutes();
-
             config.Filters.Add(new ApiExceptionFilter());
             config.MessageHandlers.Add(new WrapperHandler());
+
+            // Web API routes
+            config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
